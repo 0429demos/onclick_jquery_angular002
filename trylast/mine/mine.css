@@ -1,0 +1,416 @@
+#mineheader{
+    
+      width: 100%;
+  height: 4rem;
+  line-height: 4rem;
+
+  font-size: 16px;
+  color: white;
+  background: cadetblue;
+  box-shadow: 0 1px 1px 1px #AABDB2;
+  text-align: center;
+}
+
+.login{
+    width: 100%;
+    height: 52px;
+    background: yellow;
+
+    border-bottom: 2px solid black; 
+}
+.loginlogin{
+    display:inline-block;
+    width: 54px;
+    height: 26px;
+line-height: 26px;
+text-align: center;
+    background: #ff7f00;
+
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-left: 9px;
+
+    color: white;
+}
+.signin{
+        display:inline-block;
+    width: 54px;
+    height: 26px;
+line-height: 26px;
+text-align: center;
+    background: #ff7f00;
+
+    border-radius: 6px;
+
+     margin-top: 10px;
+     margin-left: 19px;
+
+     color: white;
+
+}
+
+
+.play{
+    width: 100%;
+    height: 124px;
+    
+    padding-top: 8px;
+    padding-left: 9px;
+
+    border-bottom: 2px solid black;
+
+    
+
+
+}
+.playtitle{
+    width: 100%;
+    height: 26px;
+
+    position: relative;
+
+    
+}
+.playtitlepic{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+
+    position: absolute;
+
+    top: 0;
+}
+.playtitlepic img{
+    width: 100%;
+
+}
+.playwrite{
+    display: inline-block;
+
+    font-size: 12px;
+    font-weight: bold;
+
+
+    height: 26px;
+    line-height: 26px;
+
+    
+    padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.mydown{
+    width: 100%;
+    height: 130px;
+    
+    padding-top: 8px;
+    padding-left: 9px;
+
+    border-bottom: 2px solid black;
+
+    
+
+
+}
+.mydowntitle{
+    width: 100%;
+    height: 26px;
+
+    position: relative;
+
+    
+}
+.mydowntitlepic{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+
+    position: absolute;
+
+    top: 0;
+}
+.mydowntitlepic img{
+    width: 100%;
+
+}
+.mydownwrite{
+    display: inline-block;
+
+    font-size: 12px;
+    font-weight: bold;
+
+
+    height: 26px;
+    line-height: 26px;
+
+    
+    padding-left: 30px;
+}
+
+
+
+
+.myfav{
+    width: 100%;
+    height: 130px;
+    
+    padding-top: 8px;
+    padding-left: 9px;
+
+    border-bottom: 2px solid black;
+
+    
+
+
+}
+.myfavtitle{
+    width: 100%;
+    height: 26px;
+
+    position: relative;
+
+    
+}
+.myfavtitlepic{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+
+    position: absolute;
+
+    top: 0;
+}
+.myfavtitlepic img{
+    width: 100%;
+
+}
+.myfavwrite{
+    display: inline-block;
+
+    font-size: 12px;
+    font-weight: bold;
+
+
+    height: 26px;
+    line-height: 26px;
+
+    
+    padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hot{
+    width: 100%;
+    height: 209px;
+    
+    padding-top: 8px;
+    padding-left: 9px;
+
+    border-bottom: 2px solid black;
+
+    
+
+
+}
+.hottitle{
+    width: 100%;
+    height: 26px;
+
+    position: relative;
+
+    
+}
+.hottitlepic{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+
+    position: absolute;
+
+    top: 0;
+}
+.hottitlepic img{
+    width: 100%;
+
+}
+.hotwrite{
+    display: inline-block;
+
+    font-size: 12px;
+    font-weight: bold;
+
+
+    height: 26px;
+    line-height: 26px;
+
+    
+    padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*6.播放时间限制*/
+
+.timelimit{
+    width: 100%;
+    height: 92px;
+    
+    padding-top: 8px;
+    padding-left: 9px;
+
+    border-bottom: 2px solid black;
+padding-right: 10px;
+    
+
+
+}
+.timetitle{
+    width: 100%;
+    height: 26px;
+
+    position: relative;
+
+    
+}
+.timetitlepic{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+
+    position: absolute;
+
+    top: 0;
+}
+.timetitlepic img{
+    width: 100%;
+
+}
+.timewrite{
+    display: inline-block;
+
+    font-size: 12px;
+    font-weight: bold;
+
+
+    height: 26px;
+    line-height: 26px;
+
+    
+    padding-left: 30px;
+    
+}
+/*单选按钮*/
+
+.choice{
+    display: flex;
+    -webkit-justify-content:space-between;
+}
+
+
+     .choice label {
+          display: block;
+          width: 50px;
+          height: 30px;
+
+          /*单选图片*/
+        background: url("../imgs/radioss.jpg") no-repeat;
+
+    
+          /*初始坐标 */
+         background-position: 0 -37px; }
+
+          /*点击切换 移到0 0坐标*/
+    .choice input[type='radio']:checked + label {
+          background-position: 0 -2px; }
+
+       .choice input[type='radio'] {
+          display: none; }
+
+
+
+
+
+
+
+
+.bottom{
+    width: 100%;
+    height: 220px;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    /*background: red;*/
+
+    /*padding-bottom: 10px;*/
+}
+.bot1{
+    width: 100%;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 5px;
+
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*遮罩层*/
+
+
+#good-zhezhao{
+  width: 100%;height: 300%;
+  position: absolute;
+  top: 0;
+  z-index: 990;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: none;
+  /*display: block;*/
+}

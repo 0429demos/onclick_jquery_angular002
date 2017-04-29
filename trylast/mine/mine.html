@@ -1,0 +1,170 @@
+
+<!--联系我们1-->
+<div ui-view>
+    <!--<div ui-view="calluss">-->
+
+
+<header id="mineheader">
+            宝宝儿歌大全年龄设置
+    </header>
+<section>
+    <h1>mine</h1>
+    <h1>{{title}}</h1>
+</section>
+<!--1.登录注册-->
+<div class="mine">
+    <div class="login">
+        <span class="loginlogin">登录</span>
+        <span class="signin">注册</span>
+    </div>
+<!--2.播放记录-->
+<div class="play">
+    <div class="playtitle">
+        <span class="playtitlepic">
+            <img src="../trylast/imgs/minepic01.jpg" alt="">
+        </span>
+        <span class="playwrite">播放记录</span>
+    </div>
+</div>
+<!--3.我的下载-->
+<div class="mydown">
+    <div class="mydowntitle">
+        <span class="mydowntitlepic">
+            <img src="../trylast/imgs/minepic02.jpg" alt="">
+        </span>
+        <span class="mydownwrite">我的下载</span>
+    </div>
+</div>
+
+<!--4.我的收藏-->
+<div class="myfav">
+    <div class="myfavtitle">
+        <span class="myfavtitlepic">
+            <img src="../trylast/imgs/minepic03.jpg" alt="">
+        </span>
+        <span class="myfavwrite">我的下载</span>
+    </div>
+</div>
+
+<!--5.热门活动-->
+<div class="hot">
+    <div class="hottitle">
+        <span class="hottitlepic">
+            <img src="../trylast/imgs/minepic03.jpg" alt="">
+        </span>
+        <span class="hotwrite">热门活动</span>
+    </div>
+</div>
+
+<!--6.播放时间限制-->
+
+<div class="timelimit">
+    <div class="timetitle">
+        <span class="timetitlepic">
+            <img src="../trylast/imgs/minepic03.jpg" alt="">
+        </span>
+        <span class="timewrite">每日视频累计播放时间限制</span>
+    </div>
+
+    <div class="choice">
+        <!--<div><span><img src="../trylast/imgs/radio1.jpg" alt=""></span>不限制</div>
+        <div><span><img src="../trylast/imgs/radio1.jpg" alt=""></span>30分钟</div>
+        <div><span><img src="../trylast/imgs/radio1.jpg" alt=""></span>60分钟</div>
+        <div><span><img src="../trylast/imgs/radio1.jpg" alt=""></span>120分钟</div>-->
+
+
+                    <input type="radio" name="ch" id="small"/>
+                    <label for="small"></label>
+                    <span>不限制</span>
+
+
+                    <input type="radio" name="ch" id="middle"/>
+                    <label for="middle"></label>
+                    <span>30分钟</span>
+
+
+                    <input type="radio" name="ch" id="big"/>
+                    <label for="big"></label>
+                    <span>60分钟</span>
+
+
+                    
+                      <input type="radio" name="ch" id="biger"/>
+                    <label for="biger"></label>
+                    <span>120分钟</span>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="bottom">
+
+    <!--添加点击事件  ng-click='xx()' -->
+
+    <!--点击，弹出遮罩层-->
+    <div class="bot1" ng-click="clickout()">
+        检查更新
+    </div>
+
+
+    <div class="bot1">
+        意见反馈
+    </div>
+
+    <div class="bot1" ui-sref="mine.callus">
+        联系我们
+    </div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+    <!--遮罩层-->
+ <div id="good-zhezhao" ng-click="clickzhezhao()"></div>
+
+
+
+
+</div>

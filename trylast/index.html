@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charse!t="UTF-8">
+    <title>Document</title>
+
+<script>
+function goBack(){
+    window.history.back()
+}
+</script>
+
+
+     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+   
+    
+        <script src="../angular-lib/angular.min.js"></script>
+         <script src="../angular-lib/angular-css.min.js"></script>
+    <script src="../angular-lib/angular-ui-router.min.js"></script>
+
+    <!--<script src="node_modules/swipejs/build/swipe.min.js"></script>-->
+    <!--<script src="node_modules/swipejs/angular-swipe/angular.swipe.js"></script>-->
+
+<!--影响头部文字大小-->
+    <!--<link rel="stylesheet" href="node_modules/swipejs/dist/style.css">-->
+
+
+
+<!--jq遮罩层-->
+    <script src='../angular-lib/jquery-1.12.4.min.js'></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+<!--<header>
+
+</header>-->
+<div class="content">
+    <!--内容容器-->
+     <div ui-view></div>
+</div>
+
+
+    <!--导航菜单-->
+    <footers id="footer">
+        <ul>
+        <li ui-sref-active="active" ui-sref="video" ng-click="color='red'">视频</li>
+        <li ui-sref-active="active" ui-sref="audio">音频</li>
+
+         <li ui-sref-active="active" ui-sref="group">社区</li>
+        <!--<li ui-sref="group">社区</li>-->
+        <li ui-sref-active="active" ui-sref="down">下载</li>
+        <!--ui-sref 与.state({name  相同})-->
+        <li ui-sref-active="active" ui-sref="mine">我的</li>
+
+         <p class="block" id="block"></p>
+    </footers>
+
+
+   <script src="app.js"></script>
+ 
+
+    <script src="video/video.js"></script>
+    <script src="audio/audio.js"></script>
+    <script src="group/group.js"></script>
+    <script src="down/down.js"></script>
+    <script src="mine/mine.js"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+
+
+<div class="videopage bgred">
+
+<header id="vedioheader">
+            视频
+    </header>
+
+<div class="videocontent">
+
+
+<!--轮播图-->
+
+<div class="videobanner">
+
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div  ng-repeat="x in swiperarr"  class="swiper-slide">
+            
+              <img ng-src="{{x.src}}" alt="">
+              </div>
+
+        </div>
+         <div class="swiper-pagination"></div>
+      </div>
+    
+</div>
+    <!--懒加载布局-->
+
+  <div class="videos">    
+        <div class="box" ng-repeat="x in datas">
+            <span class="boxpic">
+                         <img ng-src="{{x.image}}" alt="">
+            </span>
+            
+            <span class="boxwrite1">
+                 {{x.t1}}
+            </span>
+             <span class="boxwrite2">
+                 {{x.t2}}
+            </span>
+
+            <span class="right1">
+                <a href="">
+<img ng-src="{{x.right01}}" alt="">
+                </a>
+                
+            </span>
+            <span class="right2">
+<a href="">
+ <img ng-src="{{x.right02}}" alt="">
+</a>
+            </span>
+        </div>
+
+
+    </div>
+
+
+
+     <!--<div class="videos">    
+        <div class="box" >
+            <span class="boxpic">
+                         <img src="../trylast/imgs/pic001.jpg" alt="">
+            </span>
+            
+            <span class="boxwrite1">
+                 阿童木
+            </span>
+             <span class="boxwrite2">
+                 2000+
+            </span>
+
+            <span class="right1">
+                <a href="">
+<img src="../trylast/imgs/right01.jpg" alt="">
+                </a>
+                
+            </span>
+            <span class="right2">
+<a href="">
+ <img src="../trylast/imgs/right02.jpg" alt="">
+
+</a>
+
+               
+            </span>
+               
+        </div>
+
+        <div class="box">
+
+        </div>
+        <div class="box">
+
+        </div>
+        <div class="box">
+
+        </div>
+        <div class="box">
+
+        </div>
+        <div class="box">
+
+        </div>
+        <div class="box">
+
+        </div>
+        <div class="box">
+
+        </div>
+        <div class="box">
+
+        </div>
+        <div class="box">
+
+        </div>
+
+    </div>-->
+
+    <h1>video</h1>
+    <h1>{{title}}</h1>
+
+
+
+
+
+
+</div>
+
+
+
+</div>
+
+
+
